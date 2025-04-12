@@ -2,7 +2,7 @@
 
 [![Python](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/fastapi-%3E=0.95.0-teal.svg)](https://fastapi.tiangolo.com/)
-[![License](https://img.shields.io/github/license/seuusuario/fastapi-iot-gateway)](LICENSE)
+[![License](https://img.shields.io/github/license/uaipy/uaipy-local-engine)](LICENSE)
 [![Docker](https://img.shields.io/badge/docker-ready-blue.svg)](https://www.docker.com/)
 
 Este projeto é um gateway de integração para dispositivos IoT utilizando **FastAPI**. Ele consome mensagens publicadas em tópicos **MQTT**, armazena localmente em um banco **PostgreSQL**, e sincroniza os dados com um endpoint de nuvem protegido por autenticação **JWT**.
