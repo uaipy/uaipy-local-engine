@@ -19,19 +19,6 @@ Este projeto é um gateway de integração para dispositivos IoT utilizando **Fa
 - 🧠 Arquitetura modular com boas práticas Python
 - 🛠️ CLI com [Typer](https://typer.tiangolo.com/) para facilitar o uso
 
----
-
-## 🏗️ Arquitetura
-
-```mermaid
-graph TD
-    A[Dispositivos IoT] -->|MQTT| B[MQTT Broker]
-    B -->|Mensagens| C[FastAPI App]
-    C -->|Armazena| D[(PostgreSQL)]
-    C -->|Sincroniza em lote| E[API Nuvem (JWT)]
-```
-
----
 
 ## 🚀 Como rodar o projeto
 
