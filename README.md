@@ -1,4 +1,4 @@
-# 🛰️ FastAPI IoT Gateway — MQTT to Cloud Sync
+# 🛰️ UAIpy Local Engine — MQTT to Cloud Sync
 
 [![Python](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/fastapi-%3E=0.95.0-teal.svg)](https://fastapi.tiangolo.com/)
