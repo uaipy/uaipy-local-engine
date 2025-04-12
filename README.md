@@ -66,45 +66,6 @@ python cli/cli.py start
 pytest
 ```
 
----
-
-## 📁 Estrutura do Projeto
-
-```
-.
-├── app/
-│   ├── main.py                  # Entrypoint do FastAPI
-│   ├── core/                    # Configurações globais (config/env)
-│   ├── db/                      # Conexão, models e session do SQLAlchemy
-│   ├── crud/                    # Operações no banco
-│   ├── services/                # MQTT + sync para nuvem
-│   ├── api/                     # Rotas FastAPI
-│   └── utils/                   # Logger e funções auxiliares
-├── cli/
-│   └── cli.py                   # CLI com Typer
-├── docker-compose.yml
-├── Dockerfile
-├── requirements.txt
-├── .env
-├── .env.example
-└── README.md
-```
-
----
-
-## 🧠 Exemplo de Payload MQTT
-
-```json
-{
-  "device_name": "sensor01",
-  "data": {
-    "temperature": 24.3,
-    "humidity": 55
-  }
-}
-```
-
----
 
 ## 📄 Licença
 
