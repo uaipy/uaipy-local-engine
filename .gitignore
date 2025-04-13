@@ -1,0 +1,65 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.egg-info/
+.Python
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+*.sqlite3
+
+# Alembic
+alembic/versions/*.pyc
+alembic/versions/__pycache__/
+alembic.ini~
+
+# Environment
+.env
+.env.*
+
+# Docker
+*.log
+*.pid
+*.seed
+*.tar
+*.bak
+.docker/
+docker-compose.override.yml
+
+# PostgreSQL volume (se usar bind mount para dados locais)
+pgdata/
+
+# VSCode
+.vscode/
+
+# Pytest
+.cache/
+.pytest_cache/
+htmlcov/
+coverage.xml
+.coverage
+.tox/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+
+# Logs
+*.log
+log/
+
+# IDEs
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# mosquito
+/mosquitto
