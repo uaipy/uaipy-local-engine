@@ -42,6 +42,15 @@ services:
     env_file:
       - .env
 
+  mqtt_webhook:
+    build: .
+    depends_on:
+      - mosquitto
+      - uaipydb
+    command: ["python", "run_mqtt_webhook.py"]
+    env_file:
+      - .env
+
 volumes:
   pgdata:
   mosquitto_data:
